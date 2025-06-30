@@ -1,12 +1,12 @@
-# JDBC Student Management Project
+# JDBC Employee Management System
 
-This is a simple **Core Java + JDBC** project developed in **Eclipse IDE** that performs basic **CRUD (Create, Read, Update, Delete)** operations on a **MySQL database**. It demonstrates how to connect a Java application to a database using JDBC without using any frameworks.
+This is a simple **Core Java + JDBC** project developed in **Eclipse IDE** that performs basic **CRUD (Create, Read, Update, Delete)** operations on an **employee database using MySQL**. It demonstrates how to connect a Java application to a database using JDBC without any frameworks.
 
 ## 💡 Features
-- Add new student records
-- View existing student records
-- Update student details
-- Delete student records
+- Add new employee records
+- View existing employee records
+- Update employee details
+- Delete employee records
 - Uses JDBC API to interact with MySQL
 
 ## 🛠️ Technologies Used
@@ -17,8 +17,8 @@ This is a simple **Core Java + JDBC** project developed in **Eclipse IDE** that 
 
 ## 🧪 How to Run
 1. Open the project in Eclipse
-2. Add MySQL JDBC Driver (`mysql-connector-java.jar`) to the `lib/` folder and build path
-3. Update your DB credentials in the source file:
+2. Add the MySQL JDBC Driver (`mysql-connector-java.jar`) to your `lib/` folder and configure it in your build path
+3. Update your database connection credentials in the source file:
    ```java
    String url = "jdbc:mysql://localhost:3306/your_database";
    String username = "root";
