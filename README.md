@@ -22,4 +22,4 @@ This is a simple **Core Java + JDBC** project developed in **Eclipse IDE** that 
    ```java
    String url = "jdbc:mysql://localhost:3306/your_database";
    String username = "root";
-   String password = "your_password";
+   String password = "root";
