@@ -26,7 +26,7 @@ public class InsertEmployee {
 				System.out.println(rows + " employee inserted.");
 			
 		} catch (Exception e) {
-			System.out.println("Error inserting employee: " + e.getMessage());
+			System.out.println("Error inserting employee details: " + e.getMessage());
 		}
 	}
 }
