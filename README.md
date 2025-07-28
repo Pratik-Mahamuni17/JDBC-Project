@@ -20,6 +20,6 @@ This is a simple **Core Java + JDBC** project developed in **Eclipse IDE** that 
 2. Add the MySQL JDBC Driver (`mysql-connector-java.jar`) to your `lib/` folder and configure it in your build path
 3. Update your database connection credentials in the source file:
    ```java
-   String url = "jdbc:mysql://localhost:3306/your_database";
+   String url = "jdbc:mysql://localhost:3307/your_database";
    String username = "root";
    String password = "root";
